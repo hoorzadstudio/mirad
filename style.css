@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap');
+
+body {
+  font-family: 'Vazirmatn', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f1e3;
+  color: #042721;
+}
+
+header {
+  background-color: #042721;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to bottom, #042721, #0e3b2c);
+  color: #c8a257;
+}
+
+footer {
+  background-color: #042721;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
